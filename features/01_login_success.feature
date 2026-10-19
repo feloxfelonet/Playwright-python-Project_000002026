@@ -1,4 +1,4 @@
-@smoke @login @login_success
+# @smoke @login @login_success
 Feature: Successful login
 
   Scenario: Standard user can log in

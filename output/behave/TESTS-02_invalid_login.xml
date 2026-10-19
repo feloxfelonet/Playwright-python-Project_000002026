@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="2.4506633281707764" tests='1' skipped='0'
+name="02_Invalid_Login" failures='0' errors='0'><testcase time="2.4506633281707764" name="Invalid_Credentials_Are_Rejected" status="passed"
+         classname="Invalid_Login" >
+            <system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: Invalid credentials are rejected
+e                given I open the SauceDemo website ... passed in 1.132s 
+                when I enter username "invalid_user" and password "wrong_password" ... passed in 0.8608s 
+                when I click the login button ... passed in 0.4513s 
+                then I should see a login error containing "Username and password do not match" ... passed in 0.006934s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase></testsuite>

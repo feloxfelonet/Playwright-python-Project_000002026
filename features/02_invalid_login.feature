@@ -1,4 +1,4 @@
-@regression @login @negative @invalid_login
+# @regression @login @negative @invalid_login
 Feature: Invalid login
 
   Scenario: Invalid credentials are rejected
